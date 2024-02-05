@@ -167,5 +167,5 @@ The goal of this final process was to increase the "peaks" in the data significa
    The result is a set of predictions that increases large values but does not decrease all values!
 
 ## Final Performance
-The best process I found for this data was to make predictions with Random Forest Regressors with 3 weeks of lagged features, and then to scale the final output as noted above: 60% for San Juan and just 10% for Iquitos. This output scored a MAE of 24.4327, which is currently in the 93rd percentile (440th/5910) on DrivenData.org.
+The best process I found for this data was to make predictions with Random Forest Regressors with 3 weeks of lagged features, and then to scale the final output as noted above: 60% for San Juan and just 10% for Iquitos. This output scored a MAE of 24.4327, which is currently (887/14215) on DrivenData.org. ( https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/leaderboard/ )
 ![image](https://github.com/Monish24/deng-ai-master/assets/54630644/2371aa87-6a40-4ce0-8287-d124470790a9)
