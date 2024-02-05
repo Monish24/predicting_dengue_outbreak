@@ -1,5 +1,36 @@
 # PREDICTING DENGUE FEVER OUTBREAKS
 
+# Table of Contents
+
+1. [Overview](#overview)
+2. [Hypothesis](#hypothesis)
+3. [Exploratory Data Analysis & Pre-Processing](#exploratory-data-analysis--pre-processing)
+   1. [Outbreak Seasonality Visualization](#outbreak-seasonality-visualization)
+   2. [Weather Features Categories](#weather-features-categories)
+   3. [Pearson Correlations](#pearson-correlations)
+   4. [Sequential Relationships](#sequential-relationships)
+   5. [Hypothesis Refinement](#hypothesis-refinement)
+4. [Feature Selection](#feature-selection)
+   1. [San Juan Features](#san-juan-features)
+   2. [Iquitos Features](#iquitos-features)
+   3. [Boolean Fields for Key Seasons](#boolean-fields-for-key-seasons)
+5. [Time Series Techniques](#time-series-techniques)
+   1. [Long Short Term Memory models (LSTM neural networks)](#long-short-term-memory-models-lstm-neural-networks)
+   2. [Supervised Learning models with lagged features](#supervised-learning-models-with-lagged-features)
+6. [LSTM Training](#lstm-training)
+   1. [Walk Forward Validation](#walk-forward-validation)
+   2. [San Juan Training Data](#san-juan-training-data)
+   3. [Training Attempts](#training-attempts)
+7. [LSTM Performance](#lstm-performance)
+   1. [Quantitative Validation](#quantitative-validation)
+   2. [Model Categories](#model-categories)
+8. [Supervised Learning Models with Lagged Features](#supervised-learning-models-with-lagged-features)
+   1. [Lagging Features](#lagging-features)
+9. [Random Forest Regressor Output](#random-forest-regressor-output)
+10. [Exaggerating Outliers in Time Series Data using Basic Calculus](#exaggerating-outliers-in-time-series-data-using-basic-calculus)
+11. [Final Performance](#final-performance)
+
+
 ## Overview
 Dengue Fever is a disease with severity ranging from flu-like symptoms to low blood pressure and death. Humans with Dengue Fever are not contagious; it can only be spread by Mosquitoes. It is typically observed in tropical regions, but cases have increased significantly in recent years; Health Officials and scientists are warning that climate change is likely to produce shifts that enable mosquitos to reach and infect new regions of the world.
 
