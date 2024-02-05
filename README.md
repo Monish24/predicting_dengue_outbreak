@@ -144,7 +144,7 @@ This method creates a lot of features, and not all of them will be useful. There
 ## Random Forest Regressor Output
 Random Forest Regressors (using cross-validated & grid-searched parameters) created output that passed the eye test for each city.
 
-![image](https://github.com/Monish24/deng-ai-master/assets/54630644/00a7a174-8ff2-43a3-bdd2-cc4ed6f5ec2a)
+![image](https://github.com/Monish24/deng-ai-master/assets/54630644/b30fbfef-01f8-407d-8cde-e94d8e4a376c)
 
 These were good for a score of about 24.6 MAE, however, I had one final hypothesis that these models were under-predicting the outbreaks. With these model predictions as inputs, I did a little "post"-processing:
 
